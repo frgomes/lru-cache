@@ -1,0 +1,49 @@
+syntax: glob
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+**/.bloop
+**/.bsp
+
+# Emacs specific
+**/*~
+
+# Metals specific
+.metals/
+**/metals.sbt
+**/metals/project/
+
+# IntelliJ specific
+.idea
+**/*.iml
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# VScode specific
+.vscode/
+
+# ENSIME specific
+.ensime_cache/
+.ensime
+
+# Ammonite specific
+**/.ammonite/
+coursier
+
+# NPM specific
+node_modules/
+
+#-- other files
+**/*.class
+**/*.log
+.DS_Store
